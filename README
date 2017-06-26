@@ -1,0 +1,5 @@
+The project implements superpixel level saliency detection 
+Superpixels are obtained using the SLIC (Simple Linear Iterative Clustering)
+Features are extracted per superpixel. They include average rgb values of all pixels within, average lab values of all pixels within, local binary pattern, entropy.
+GBVS and Itti Koch are priors for classlabels.
+Extreme Learning Machine is used for classification.
